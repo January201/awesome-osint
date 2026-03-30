@@ -51,8 +51,14 @@ def check_alphabetical(sections):
         
         if sort_names != sorted_names:
             errors.append(f"Section '{section}' is not alphabetically sorted")
+            # Build a mapping from sort_name to expected position (handle duplicates)
+            name_to_pos = {}
+            for pos, name in enumerate(sorted_names):
+                if name not in name_to_pos:
+                    name_to_pos[name] = pos
+            
             for i, (original, sort_name, line) in enumerate(items):
-                expected_pos = sorted_names.index(sort_name)
+                expected_pos = name_to_pos.get(sort_name, i)
                 if i != expected_pos:
                     errors.append(f"  Line {i+1}: '{original}' should be at position {expected_pos+1}")
     
