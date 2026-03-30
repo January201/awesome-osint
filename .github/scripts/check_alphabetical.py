@@ -14,12 +14,14 @@ def extract_list_items(content):
     current_items = []
     
     for line in content.split('\n'):
-        # Check for section headers (## Header)
-        header_match = re.match(r'^##\s+(?:\[.*?\]\(.*?\)\s+)?(.+)$', line)
+        # Check for section headers (##, ###, etc. headers)
+        header_match = re.match(r'^(#{2,})\s+(?:\[.*?\]\(.*?\)\s+)?(.+)$', line)
         if header_match:
             if current_section and current_items:
                 sections[current_section] = current_items
-            current_section = header_match.group(1).strip()
+            hashes = header_match.group(1)
+            title = header_match.group(2).strip()
+            current_section = f"{hashes} {title}"
             current_items = []
         
         # Check for list items (* or -)
