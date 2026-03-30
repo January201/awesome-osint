@@ -1,0 +1,1 @@
+Nothing needs to be added to .gitignore since the only change is adding a markdown file (IMPROVEMENT_ANALYSIS.md) which is a source/config file and should not be ignored.
