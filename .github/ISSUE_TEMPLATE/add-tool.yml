@@ -1,0 +1,70 @@
+name: Add New Tool/Resource
+
+description: Suggest a new tool or resource to add to the list
+
+title: "[Add]: <Tool Name>"
+labels: ["enhancement", "new-tool"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to Awesome OSINT! Please fill out the following information.
+
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool/Resource Name
+      description: What is the name of the tool or resource?
+      placeholder: "e.g., Sherlock"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Provide the HTTPS URL to the tool/resource
+      placeholder: "https://github.com/sherlock-project/sherlock"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this belong to?
+      options:
+        - General Search
+        - Social Media Tools
+        - Username Check
+        - People Investigations
+        - Email Search
+        - Domain/IP Research
+        - Image Search/Analysis
+        - Threat Intelligence
+        - Privacy Tools
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Briefly describe what this tool does
+      placeholder: "A tool that searches for usernames across social media sites..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have verified this is not already in the list
+          required: true
+        - label: The URL uses HTTPS (not HTTP)
+          required: true
+        - label: This is an open-source or freely available tool
+          required: false
