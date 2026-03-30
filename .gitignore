@@ -1,1 +1,54 @@
-Nothing needs to be added to .gitignore since the only change is adding a markdown file (IMPROVEMENT_ANALYSIS.md) which is a source/config file and should not be ignored.
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.ENV.local
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# MyPy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode
+.vscode/
+
+# Backup files
+*~
+
+# Local backup files
+*.backup
+```

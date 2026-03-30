@@ -1,0 +1,60 @@
+name: Report Issue
+
+description: Report a broken link, duplicate entry, or other issue
+
+title: "[Issue]: <Brief description>"
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Awesome OSINT! Please provide details about the issue.
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: What type of issue are you reporting?
+      options:
+        - Broken Link
+        - Duplicate Entry
+        - Incorrect Category
+        - Formatting Issue
+        - HTTP Link (should be HTTPS)
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: affected-entry
+    attributes:
+      label: Affected Entry
+      description: Name of the tool/resource with the issue
+      placeholder: "e.g., Sherlock"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue in detail
+      placeholder: "The link returns a 404 error..."
+    validations:
+      required: true
+
+  - type: input
+    id: suggested-fix
+    attributes:
+      label: Suggested Fix (if applicable)
+      description: Do you have a suggestion for how to fix this?
+      placeholder: "Update URL to https://..."
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues to avoid duplicates
+          required: true
