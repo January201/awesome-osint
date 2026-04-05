@@ -2,7 +2,6 @@
 import sys
 import os
 import SiGploit
-import time
 from subprocess import check_call, CalledProcessError
 
 # Cache the current working directory
