@@ -1,0 +1,2498 @@
+{
+  "name": "OSINT Framework",
+  "type": "folder",
+  "children": [
+    {
+      "name": "Archived Web & Data",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Archive.today",
+          "type": "item",
+          "url": "https://archive.today",
+          "description": "Archive any webpage, including Facebook and search for archived pages. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/archive.today"
+        },
+        {
+          "name": "Auto Archiver",
+          "type": "item",
+          "url": "https://github.com/bellingcat/auto-archiver",
+          "description": "Bellingcat's tool to automatically archive social media posts, videos, and images. Free and Open-Source. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/auto-archiver"
+        },
+        {
+          "name": "Bellingcat TikTok Hashtag Analysis",
+          "type": "item",
+          "url": "https://github.com/bellingcat/tiktok-hashtag-analysis",
+          "description": "Archive content and metadata from TikTok posts that contain one or more specified hashtags [Free]"
+        },
+        {
+          "name": "Distill.io",
+          "type": "item",
+          "url": "https://distill.io/",
+          "description": "Distill.io is a website change monitoring tool that allows users to track changes on web pages. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/distill"
+        },
+        {
+          "name": "Hunchly",
+          "type": "item",
+          "url": "https://www.hunch.ly/",
+          "description": "An archiving tool that tracks online activities and preserves essential information about the web pages researchers visit. [Paid]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/hunchly"
+        },
+        {
+          "name": "Instant Data Scraper",
+          "type": "item",
+          "url": "https://webrobots.io/instantdata/",
+          "description": "Browser extension for simple web scraping, with table output. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/instant-data-scraper"
+        },
+        {
+          "name": "Lumen",
+          "type": "item",
+          "url": "https://lumendatabase.org/",
+          "description": "A research project collecting and publishing legal takedown notices for online content transparency [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/lumen"
+        },
+        {
+          "name": "Wayback Machine",
+          "type": "item",
+          "url": "https://web.archive.org/",
+          "description": "The Internet Archive's Wayback Machine lets users view and archive web pages, aiding in historical research and digital preservation. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/internet-archive"
+        },
+        {
+          "name": "Web Archives",
+          "type": "item",
+          "url": "https://github.com/dessant/web-archives",
+          "description": "A browser extension to view archived and cached versions of a website on multiple archiving sites. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/web-archives"
+        }
+      ]
+    },
+    {
+      "name": "Business & Corporate Records",
+      "type": "folder",
+      "children": [
+        {
+          "name": "527 Explorer",
+          "type": "item",
+          "url": "https://projects.propublica.org/527-explorer/",
+          "description": "ProPublica's 527 Explorer is a database that allows users to examine the finances of organizations known as 527s in the United States, which can raise unlimited sums for political purposes. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/527-explorer"
+        },
+        {
+          "name": "BlockExplorer",
+          "type": "item",
+          "url": "https://blockexplorer.com/",
+          "description": "Following a bitcoin trail or following a bitcoin account? [Free]",
+          "notes": "Crypto"
+        },
+        {
+          "name": "China-related resources",
+          "type": "item",
+          "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/china-related-resources",
+          "description": "Resources for research on companies in China.",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/china-related-resources"
+        },
+        {
+          "name": "Companies House",
+          "type": "item",
+          "url": "https://find-and-update.company-information.service.gov.uk/",
+          "description": "Search companies and individuals in the United Kingdom and Gibraltar. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/companies-house"
+        },
+        {
+          "name": "EDGAR",
+          "type": "item",
+          "url": "https://www.sec.gov/edgar/search/",
+          "description": "Database of corporate filings for the US [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar"
+        },
+        {
+          "name": "EDGAR Command Line Interface (edgar-tool)",
+          "type": "item",
+          "url": "https://pypi.org/project/edgar-tool/",
+          "description": "Tool for the retrieval of corporate and financial data from SEC's EDGAR (Electronic Data Gathering, Analysis, and Retrieval) database. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar-suite"
+        },
+        {
+          "name": "EU Sanctions Map",
+          "type": "item",
+          "url": "https://www.sanctionsmap.eu/",
+          "description": "Database of sanctions imposed by the European Union [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/eu-sanctions-map"
+        },
+        {
+          "name": "EU consolidated corporate registers",
+          "type": "item",
+          "url": "https://e-justice.europa.eu/content_find_a_company-489-en.do",
+          "description": "Consolidated company registers covering most of the EU, Iceland, Liechtenstein and Norway. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/eu-consolidated-corporate-registers"
+        },
+        {
+          "name": "Etherscan",
+          "type": "item",
+          "url": "https://etherscan.io/",
+          "description": "An explorer that allows researchers to track wallets, transactions and more on the Ethereum blockchain. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/etherscan"
+        },
+        {
+          "name": "Global Suppliers Online",
+          "type": "item",
+          "url": "https://www.globalsuppliersonline.com/",
+          "description": "A site dedicated to connect suppliers and buyers of goods from all over the world. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/global-suppliers-online"
+        },
+        {
+          "name": "ICIJ Offshore Leaks Database",
+          "type": "item",
+          "url": "http://offshoreleaks.icij.org/",
+          "description": "Find out who's behind more than 810k offshore companies, foundations and trusts from the Panama Papers, the Offshore Leaks, the Bahamas Leaks and the Paradise Papers investigations. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/icij-offshore-leaks-database"
+        },
+        {
+          "name": "ImportGenius",
+          "type": "item",
+          "url": "https://www.importgenius.com/",
+          "description": "Commercial supplier of trade data for 23 countries. Paid service but journalists can ask for free access. [Paid]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/importgenius"
+        },
+        {
+          "name": "ImportYeti",
+          "type": "item",
+          "url": "https://www.importyeti.com/",
+          "description": "Search 60 million US customs sea shipment records, find company suppliers. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/importyeti"
+        },
+        {
+          "name": "LittleSis",
+          "type": "item",
+          "url": "https://littlesis.org/database",
+          "description": "Connects the dots between influential / wealthy individuals in (mostly US) politics and business. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/littlesis"
+        },
+        {
+          "name": "Lumen",
+          "type": "item",
+          "url": "https://lumendatabase.org/",
+          "description": "A research project collecting and publishing legal takedown notices for online content transparency [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/lumen"
+        },
+        {
+          "name": "North Data",
+          "type": "item",
+          "url": "https://northdata.com",
+          "description": "Search for people and companies in EU corporate and trade registers + visualize relationships [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/north-data"
+        },
+        {
+          "name": "OCCRP Aleph",
+          "type": "item",
+          "url": "https://aleph.occrp.org/",
+          "description": "Aleph offers a way to research sanctions lists, corporate registries, leaks, and more [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/occrp-aleph"
+        },
+        {
+          "name": "OSINT Tools Map",
+          "type": "item",
+          "url": "https://cybdetective.com/osintmap/",
+          "description": "An interactive worldwide map, showcasing business registries, court records, and other publicly available information to aid OSINT investigations and research. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/osint-tools-map"
+        },
+        {
+          "name": "Open Ownership",
+          "type": "item",
+          "url": "https://www.openownership.org/en/",
+          "description": "Links to beneficial ownership registers. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/open-ownership"
+        },
+        {
+          "name": "OpenCorporates",
+          "type": "item",
+          "url": "https://opencorporates.com/",
+          "description": "Comprehensive repository of company registries around the world [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates"
+        },
+        {
+          "name": "OpenSanctions",
+          "type": "item",
+          "url": "https://www.opensanctions.org/",
+          "description": "Open-source international database of sanctions data, persons of interest and politically exposed persons. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/opensanctions"
+        },
+        {
+          "name": "OpenSecrets",
+          "type": "item",
+          "url": "https://www.opensecrets.org/",
+          "description": "Data on campaign finance, lobbying, and spending in U.S. politics [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/opensecrets"
+        },
+        {
+          "name": "RuPEP",
+          "type": "item",
+          "url": "https://rupep.org/en/",
+          "description": "Online database of politically exposed persons in Russia, Belarus, Kyrgyzstan and Kazakhstan. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/rupep"
+        },
+        {
+          "name": "SanctionsExplorer",
+          "type": "item",
+          "url": "https://sanctionsexplorer.org/",
+          "description": "A comprehensive database of current and historical OFAC/UN/EU sanctions [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/sanctionsexplorer"
+        },
+        {
+          "name": "UN Comtrade Database",
+          "type": "item",
+          "url": "https://comtradeplus.un.org/",
+          "description": "United Nations free database of global trade. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/un-comtrade-database"
+        },
+        {
+          "name": "Wikipedia list of registers",
+          "type": "item",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_business_registers",
+          "description": "Wikipedia list of official business registers around the world. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/wikipedia-list-of-registers"
+        }
+      ]
+    },
+    {
+      "name": "Data Visualization & Analysis",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Atlos",
+          "type": "item",
+          "url": "https://www.atlos.org/",
+          "description": "ATLOS is a platform for collaborative and large-scale open source investigations. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/atlos"
+        },
+        {
+          "name": "Blender",
+          "type": "item",
+          "url": "https://www.blender.org/",
+          "description": "Blender is an open-source 3D creation suite supporting the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing, and motion tracking, even video editing. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/blender"
+        },
+        {
+          "name": "Datawrapper",
+          "type": "item",
+          "url": "https://www.datawrapper.de/",
+          "description": "A tool for creating interactive charts, maps, and tables from your data, offering a user-friendly interface for visualizing information. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/datawrapper"
+        },
+        {
+          "name": "Gephi",
+          "type": "item",
+          "url": "https://gephi.org",
+          "description": "Open-source network analysis and visualization software [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi"
+        },
+        {
+          "name": "Logseq",
+          "type": "item",
+          "url": "https://logseq.com/",
+          "description": "Logseq is an open-source knowledge management tool that enables users to organize their notes, tasks, and projects. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/logseq"
+        },
+        {
+          "name": "Maltego Graph",
+          "type": "item",
+          "url": "https://www.maltego.com/",
+          "description": "Maltego Graph is an investigation platform that combines two things at once: (1) It acts as a search tool, and (2) It creates a graph establishing links between data you uncover from your search. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego"
+        },
+        {
+          "name": "Obsidian",
+          "type": "item",
+          "url": "https://obsidian.md/",
+          "description": "A knowledge management and note-taking app with extensive customization options. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/obsidian"
+        },
+        {
+          "name": "Pinpoint",
+          "type": "item",
+          "url": "https://journaliststudio.google.com/pinpoint/about",
+          "description": "A tool by Google to catalogue uploaded documents and files, providing OCR, indexing, and other services. Full access only granted to journalists, academic researchers and university students. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/pinpoint"
+        },
+        {
+          "name": "QGIS:",
+          "type": "item",
+          "url": "https://www.qgis.org",
+          "description": "QGIS is a free Open Source Geographic Information System (GIS). [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis"
+        },
+        {
+          "name": "RAWGraphs",
+          "type": "item",
+          "url": "https://app.rawgraphs.io/",
+          "description": "RAWGraphs is an open-source data visualization tool designed for non-technical users, enabling the creation of customizable, editable charts without coding skills. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/rawgraphs"
+        },
+        {
+          "name": "Time.Graphics",
+          "type": "item",
+          "url": "https://time.graphics",
+          "description": "A tool for creating, visualizing, and managing timelines online. [Partially Free]",
+          "notes": "Create up to two timelines for free"
+        }
+      ]
+    },
+    {
+      "name": "Environment",
+      "type": "folder",
+      "children": [
+        {
+          "name": "AllTrails",
+          "type": "item",
+          "url": "https://www.alltrails.com/",
+          "description": "AllTrails.com is a tool for discovering hiking, biking, and running trails worldwide, providing detailed trail maps, user reviews, and navigation support for outdoor enthusiasts. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/alltrails"
+        },
+        {
+          "name": "Amazonia Socio Ambiental",
+          "type": "item",
+          "url": "https://www.amazoniasocioambiental.org/en/",
+          "description": "Amazon rainforest maps and shapefiles of natural protected areas, concessions, indigenous territories, oil, mining, roads, fires, deforestation in bolivia, brazil, colombia, ecuador, guyanas and suriname, peru, venezuela [Free]",
+          "notes": "🌳"
+        },
+        {
+          "name": "Aqueduct Water Risk Atlas",
+          "type": "item",
+          "url": "https://www.wri.org/applications/aqueduct/water-risk-atlas/",
+          "description": "The Aqueduct water Risk Atlas, developed by the World Resources Institute (WRI), is an interactive platform for assessing water-related risks globally [Free]"
+        },
+        {
+          "name": "BirdNet",
+          "type": "item",
+          "url": "https://birdnet.cornell.edu/map",
+          "description": "Identify bird sounds - find bird sounds on a global map. [Free]",
+          "notes": "🐦"
+        },
+        {
+          "name": "CITES Trade Database",
+          "type": "item",
+          "url": "https://trade.cites.org/",
+          "description": "Around 23 million records of trade in wildlife since 1975. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database"
+        },
+        {
+          "name": "CryO Tools",
+          "type": "item",
+          "url": "https://cryo-tools.org/",
+          "description": "Scientific tools for investigating the cryosphere (areas with snow & ice) [Free]",
+          "notes": "🧊"
+        },
+        {
+          "name": "EIA Global Environmental Crime Tracker",
+          "type": "item",
+          "url": "https://eia-international.org/global-environmental-crime-tracker/",
+          "description": "Map/tracker of environmental crimes including trade in ivory, rhino, big cats, and other exotic animals. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/eia-global-environmental-crime-tracker"
+        },
+        {
+          "name": "Environmental Justice Atlas",
+          "type": "item",
+          "url": "https://ejatlas.org/",
+          "description": "Map of environmental-related conflict globally [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/environmental-justice-atlas"
+        },
+        {
+          "name": "Global Fishing Watch Map",
+          "type": "item",
+          "url": "https://globalfishingwatch.org/map",
+          "description": "The Global Fishing Watch Map is a digital platform for investigating fishing activities worldwide by utilising satellite and AIS data. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map"
+        },
+        {
+          "name": "Global Forest Watch",
+          "type": "item",
+          "url": "https://www.globalforestwatch.org/map/",
+          "description": "Explore tree cover loss and gain data, recent deforestation and fire alerts, land use designations, carbon emissions, biodiversity metrics and more. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch"
+        },
+        {
+          "name": "Global Monitoring System - ECOSOLVE",
+          "type": "item",
+          "url": "https://www.ecosolve.eco/dashboard",
+          "description": "Illicit online wildlife markets data from Brazil, South Africa and Thailand. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/global-monitoring-system"
+        },
+        {
+          "name": "Google Flood Hub",
+          "type": "item",
+          "url": "https://sites.research.google/floods/",
+          "description": "A visual tool to monitor river levels and forecast floods based on AI models developed by Google Research. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/google-flood-hub"
+        },
+        {
+          "name": "Locust Hub",
+          "type": "item",
+          "url": "https://locust-hub-hqfao.hub.arcgis.com/",
+          "description": "A repository for desert locust data with maps and other resources for tracking movements, early detection and planning locust control interventions. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/locust-hub"
+        },
+        {
+          "name": "Merlin",
+          "type": "item",
+          "url": "https://merlin.allaboutbirds.org/",
+          "description": "Identify birds (visually), through an app. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/merlin"
+        },
+        {
+          "name": "Movebank",
+          "type": "item",
+          "url": "https://www.movebank.org/",
+          "description": "Platform for animal tracking data. [Free]"
+        },
+        {
+          "name": "Nullschool Earth Map",
+          "type": "item",
+          "url": "https://earth.nullschool.net/#current",
+          "description": "View current and historic wind, weather, ocean and pollution conditions on an interactive animated map. [Free]"
+        },
+        {
+          "name": "Resource Watch",
+          "type": "item",
+          "url": "https://resourcewatch.org/",
+          "description": "A free open-data platform that hosts 300+ datasets on different topics relating to the environment, people and resources, including real-time datasets. [Free]"
+        },
+        {
+          "name": "River Runner Global",
+          "type": "item",
+          "url": "https://river-runner-global.samlearner.com/",
+          "description": "Calculate which water stream a drop of rain will follow [Free]",
+          "notes": "💧"
+        },
+        {
+          "name": "Species+",
+          "type": "item",
+          "url": "https://www.speciesplus.net/species",
+          "description": "Centralized website with vulnerable species information. [Free]"
+        },
+        {
+          "name": "UNOSAT Analyses",
+          "type": "item",
+          "url": "https://unosat.org/products",
+          "description": "UNOSAT Analyses is a tool that maps humanitarian emergencies across the globe utilising United Nations Satellite Centre data. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/unosat-analyses"
+        },
+        {
+          "name": "WildEye",
+          "type": "item",
+          "url": "https://global.wildeye.oxpeckers.org/",
+          "description": "Tracking tool for data on environmental and wildlife crime cases, including court cases and convictions, across the globe. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/wildeye"
+        },
+        {
+          "name": "WildMe & WildBook",
+          "type": "item",
+          "url": "https://wildme.org/#/platforms/bass",
+          "description": "Open source pattern recognition software to identify unique whales, sharks, zebras, jaguars, skunks, fish and much more. [Free]",
+          "notes": "🐳"
+        },
+        {
+          "name": "Wildlife Trade Portal",
+          "type": "item",
+          "url": "https://www.wildlifetradeportal.org/",
+          "description": "An open-source tool to search wildlife seizure data worldwide. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/wildlife-trade-portal"
+        },
+        {
+          "name": "World Database on Protected and Conserved Areas",
+          "type": "item",
+          "url": "https://www.protectedplanet.net/en/search-areas?geo_type=site",
+          "description": "A comprehensive global database on terrestrial and marine protected areas. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/world-database-protected-areas"
+        }
+      ]
+    },
+    {
+      "name": "Facial Recognition",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Amazon Rekognition",
+          "type": "item",
+          "url": "https://aws.amazon.com/rekognition/",
+          "description": "Check how similar two faces are [Free]"
+        },
+        {
+          "name": "Azure AI Video Indexer",
+          "type": "item",
+          "url": "https://vi.microsoft.com/en-us",
+          "description": "AI video tool for facial detection and other types of insights. [Paid]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/azure-ai-video-indexer"
+        },
+        {
+          "name": "Face Comparison by ToolPie",
+          "type": "item",
+          "url": "https://facecomparison.toolpie.com/",
+          "description": "Compares two human face photos to determine similarity. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/face-comparison-toolpie"
+        },
+        {
+          "name": "FaceCheck.ID",
+          "type": "item",
+          "url": "https://facecheck.id/",
+          "description": "A facial recognition search engine that tries to find photos of people that look similar to a person of interest. [Paid]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/facecheck.id"
+        },
+        {
+          "name": "GFPGAN",
+          "type": "item",
+          "url": "https://replicate.com/tencentarc/gfpgan",
+          "description": "Practical face restoration algorithm for *old photos* or *AI-generated faces* [Free]"
+        },
+        {
+          "name": "PimEyes",
+          "type": "item",
+          "url": "https://pimeyes.com/en",
+          "description": "An AI-powered facial recognition reverse image search tool. [Paid]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/pimeyes"
+        },
+        {
+          "name": "Search4Faces",
+          "type": "item",
+          "url": "https://search4faces.com",
+          "description": "Upload the picture of a face and find pictures of similar looking people on VKontakte, Odnoklassniki, TikTok and Clubhouse. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/search4faces"
+        },
+        {
+          "name": "VFF",
+          "type": "item",
+          "url": "https://www.robots.ox.ac.uk/~vgg/software/vff/",
+          "description": "VGG Face Finder (VFF) Engine  Visual Geometry Group and released under the BSD-2 clause. VFF is a web application that serves as a web engine to perform searches for faces over an user-defined image dataset. It is based on the original application created by VGG to perform visual searchers over a large dataset of images from BBC News. [Free]"
+        }
+      ]
+    },
+    {
+      "name": "Geolocation Tools",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Bellingcat OpenStreetMap Search",
+          "type": "item",
+          "url": "https://osm-search.bellingcat.com/",
+          "description": "A user interface to search OpenStreetMap data for features in proximity to each other. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool"
+        },
+        {
+          "name": "GeoHints",
+          "type": "item",
+          "url": "https://geohints.com/",
+          "description": "GeoHints is a website that provides information about things like traffic lights, utility poles, bollards etc. for different regions of the world to help geolocate a location. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/geohints"
+        },
+        {
+          "name": "GeoNames",
+          "type": "item",
+          "url": "http://www.geonames.org/",
+          "description": "The GeoNames geographical database covers all countries and contains over eleven million place names that are available for download free of charge Extremely useful in Geo Tagging, documentation, and data collection. [Free]"
+        },
+        {
+          "name": "Photo-Map.RU",
+          "type": "item",
+          "url": "http://photo-map.ru/",
+          "description": "Geotagged VK posts. [Free]"
+        },
+        {
+          "name": "ShadeMap",
+          "type": "item",
+          "url": "https://shademap.app",
+          "description": "ShadeMap is a global simulation of mountain, building & tree shadows for a given date & time. Base data is free, but users can buy 30cm accurate data per sq km for areas of special focus. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/shademap"
+        },
+        {
+          "name": "Shadow Finder",
+          "type": "item",
+          "url": "https://github.com/bellingcat/ShadowFinder",
+          "description": "To analyse shadows in source imagery, Shadow Finder maps all points on the earth where a shadow of given length could occur at a given date & time, IF the height of the object casting it is known. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/shadow-finder"
+        },
+        {
+          "name": "ShadowMap",
+          "type": "item",
+          "url": "https://app.shadowmap.org/",
+          "description": "Global map of 3D buildlings and the shadows they cast at a specific time a day [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/shadowmap"
+        },
+        {
+          "name": "SunCalc",
+          "type": "item",
+          "url": "https://www.suncalc.org/",
+          "description": "Suncalc models the relationship between the date, time of day, the geographic location of a place, and the position of the sun in the sky, together with the length & direction of the shadows it casts. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/suncalc"
+        }
+      ]
+    },
+    {
+      "name": "Image Tools",
+      "type": "folder",
+      "children": [
+        {
+          "name": "AmIReal",
+          "type": "item",
+          "url": "https://seintpl.github.io/AmIReal/",
+          "description": "Github - GAN detector detects if faces were generated by ThisPersonDoesNotExist [Free]"
+        },
+        {
+          "name": "AutoStitch",
+          "type": "item",
+          "url": "https://mattabrown.github.io/autostitch.html",
+          "description": "Autostitch is a free tool for seamlessly combining multiple photos into a single panoramic image, making it ideal for creating wide-angle photography without needing specialized equipment. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/autostitch"
+        },
+        {
+          "name": "Cleanup.Pictures",
+          "type": "item",
+          "url": "https://cleanup.pictures/",
+          "description": "Web tool for quickly removing objects from an image. [Free]"
+        },
+        {
+          "name": "ExifPurge",
+          "type": "item",
+          "url": "http://www.exifpurge.com/",
+          "description": "EXIF Purge is a small portable application to remove EXIF metadata from multiple images at once. With the click of a button you can remove the camera, location and other technical information from a batch of photos which is embedded by the camera or the photo editing software. [Free]"
+        },
+        {
+          "name": "Forensically",
+          "type": "item",
+          "url": "https://29a.ch/photo-forensics/#forensic-magnifier",
+          "description": "A collection of web-based image forensics tools. Can identify fake or doctored images. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/forensically"
+        },
+        {
+          "name": "Forensically",
+          "type": "item",
+          "url": "https://29a.ch/photo-forensics/#forensic-magnifier",
+          "description": "A collection of web-based image forensics tools. Can identify fake or doctored images. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/forensically"
+        },
+        {
+          "name": "FotoForensics",
+          "type": "item",
+          "url": "http://fotoforensics.com/",
+          "description": "Image forensics tool. [Free]"
+        },
+        {
+          "name": "Google Lens",
+          "type": "item",
+          "url": "https://lens.google/",
+          "description": "Google Lens is an image recognition tool which can be used to identify locations or objects in photographs. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/google-lens"
+        },
+        {
+          "name": "Hugin",
+          "type": "item",
+          "url": "https://hugin.sourceforge.io/",
+          "description": "Hugin is a free and open-source panorama photo stitching and HDR (High Dynamic Range imaging) merging software that helps users create seamless panoramic images from multiple photographs. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/hugin"
+        },
+        {
+          "name": "IPVM Calculator",
+          "type": "item",
+          "url": "https://calculator.ipvm.com/",
+          "description": "Tool for simulating camera views (for geolocations). [Free]"
+        },
+        {
+          "name": "InVID Verification Plugin",
+          "type": "item",
+          "url": "https://weverify.eu/verification-plugin/",
+          "description": "A toolkit that supports the verification of videos and images. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/invid"
+        },
+        {
+          "name": "InVID Verification Plugin",
+          "type": "item",
+          "url": "https://weverify.eu/verification-plugin/",
+          "description": "A toolkit that supports the verification of videos and images. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/invid"
+        },
+        {
+          "name": "InVID Verification Plugin",
+          "type": "item",
+          "url": "https://weverify.eu/verification-plugin/",
+          "description": "A toolkit that supports the verification of videos and images. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/invid"
+        },
+        {
+          "name": "Irfanview",
+          "type": "item",
+          "url": "http://irfanview.com/",
+          "description": "Windows-based software to extract metadata. [Free]"
+        },
+        {
+          "name": "Jimpl",
+          "type": "item",
+          "url": "https://jimpl.com/",
+          "description": "Online EXIF data viewer [Free]"
+        },
+        {
+          "name": "PixPlot",
+          "type": "item",
+          "url": "https://github.com/YaleDHLab/pix-plot",
+          "description": "PixPlot is a tool that utilizes machine learning and WebGL to provide an interactive visualization of large image collections, allowing users to explore patterns and outliers within image datasets. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/pixplot"
+        },
+        {
+          "name": "PureRef",
+          "type": "item",
+          "url": "https://www.pureref.com/index.php",
+          "description": "Image workspace; lets you arrange images in groups, organize them, etc. [Free]"
+        },
+        {
+          "name": "Reveal Image Verification Assistant",
+          "type": "item",
+          "url": "https://www.rand.org/research/projects/truth-decay/fighting-disinformation/search/items/reveal-image-verification-assistant.html",
+          "description": "Forensic providing eight filters to detect still images alterations. Web-based image tool. Also available within InVID verification plugin. [Free]"
+        },
+        {
+          "name": "RootAbout",
+          "type": "item",
+          "url": "http://rootabout.com/",
+          "description": "Reverse search images on the Internet Archive [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/rootabout"
+        },
+        {
+          "name": "Search by Image",
+          "type": "item",
+          "url": "https://addons.opera.com/extensions/details/search-by-image/",
+          "description": "A browser extension to reverse search an image on multiple search engines. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/search-by-image"
+        },
+        {
+          "name": "TinEye",
+          "type": "item",
+          "url": "https://tineye.com/",
+          "description": "TinEye is a search engine that allows the user to search using images (reverse image search). [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/tineye"
+        },
+        {
+          "name": "VIC",
+          "type": "item",
+          "url": "http://www.robots.ox.ac.uk/~vgg/software/vic/",
+          "description": "The VGG Image Classification (VIC) Engine is an open source project developed at the Visual Geometry Group and released under the BSD-2 clause. VIC is a web application that serves as a web engine to perform image classification queries over an user-defined image dataset. It is based on the original application created by VGG to perform visual searchers over a large dataset of images from BBC News. [Free]"
+        },
+        {
+          "name": "VISE",
+          "type": "item",
+          "url": "http://robots.ox.ac.uk/~vgg/software/vise",
+          "description": "(VGG Image Search Engine) This standalone application can be used to do a reverse image search on a large collection of images. [Free]"
+        },
+        {
+          "name": "fdupes",
+          "type": "item",
+          "url": "https://github.com/adrianlopezroche/fdupes",
+          "description": "Github - Locating exact matches of duplicate files. [Free]"
+        },
+        {
+          "name": "jhead",
+          "type": "item",
+          "url": "https://www.sentex.ca/~mwandel/jhead/",
+          "description": "Remove EXIF/metadata. [Free]"
+        },
+        {
+          "name": "metadata2go",
+          "type": "item",
+          "url": "https://www.metadata2go.com/",
+          "description": "Check metadata for both photos and videos online. [Free]"
+        },
+        {
+          "name": "xIFr",
+          "type": "item",
+          "url": "https://github.com/StigNygaard/xIFr",
+          "description": "A Firefox add-on for extracting EXIF metadata by right-clicking an image. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/xifr"
+        }
+      ]
+    },
+    {
+      "name": "Maps & Geography",
+      "type": "folder",
+      "children": [
+        {
+          "name": "About Maps and Satellites",
+          "type": "item",
+          "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites",
+          "description": "A guide to using map and satellite tools. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites"
+        },
+        {
+          "name": "About Maps and Satellites",
+          "type": "item",
+          "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites",
+          "description": "A guide to using map and satellite tools. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites"
+        },
+        {
+          "name": "About Maps and Satellites",
+          "type": "item",
+          "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites",
+          "description": "A guide to using map and satellite tools. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites"
+        },
+        {
+          "name": "Apple Maps",
+          "type": "item",
+          "url": "https://www.apple.com/maps/",
+          "description": "Apple Maps is a digital mapping service with detailed, interactive maps, satellite imagery, and location-based information. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps"
+        },
+        {
+          "name": "Baidu Maps",
+          "type": "item",
+          "url": "http://map.baidu.com/",
+          "description": "Baidu's mapping service offering satellite imagery, street maps, and streetview (Panorama - zh:百度全景). [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/baidu-maps"
+        },
+        {
+          "name": "Baidu Maps",
+          "type": "item",
+          "url": "http://map.baidu.com/",
+          "description": "Baidu's mapping service offering satellite imagery, street maps, and streetview (Panorama - zh:百度全景). [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/baidu-maps"
+        },
+        {
+          "name": "Baidu Maps",
+          "type": "item",
+          "url": "http://map.baidu.com/",
+          "description": "Baidu's mapping service offering satellite imagery, street maps, and streetview (Panorama - zh:百度全景). [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/baidu-maps"
+        },
+        {
+          "name": "Bellingcat OpenStreetMap Search",
+          "type": "item",
+          "url": "https://osm-search.bellingcat.com/",
+          "description": "A user interface to search OpenStreetMap data for features in proximity to each other. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool"
+        },
+        {
+          "name": "Bing Maps",
+          "type": "item",
+          "url": "https://www.bing.com/maps/",
+          "description": "Bing Maps is a web mapping service provided by Microsoft that offers detailed geographical information and tools for route planning, location search, and satellite imagery. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps"
+        },
+        {
+          "name": "Bing Maps",
+          "type": "item",
+          "url": "https://www.bing.com/maps/",
+          "description": "Bing Maps is a web mapping service provided by Microsoft that offers detailed geographical information and tools for route planning, location search, and satellite imagery. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps"
+        },
+        {
+          "name": "Bing Maps",
+          "type": "item",
+          "url": "https://www.bing.com/maps/",
+          "description": "Bing Maps is a web mapping service provided by Microsoft that offers detailed geographical information and tools for route planning, location search, and satellite imagery. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps"
+        },
+        {
+          "name": "Carte.ma",
+          "type": "item",
+          "url": "http://carte.ma/",
+          "description": "Mapping/streetview service for Morocco [Free]"
+        },
+        {
+          "name": "Convert Geographic Units",
+          "type": "item",
+          "url": "http://rcn.montana.edu/resources/Converter.aspx",
+          "description": "A tool that converts various geographic coordinates to support diverse mapping and spatial analysis needs. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/convert-geographic-units"
+        },
+        {
+          "name": "Copernicus Browser (formerly Sentinel Hub Playground, EO Browser)",
+          "type": "item",
+          "url": "https://browser.dataspace.copernicus.eu/",
+          "description": "A free web-based platform for viewing, analyzing, and downloading satellite imagery from the European Space Agency's Sentinel missions, with data updated every 5-10 days. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground"
+        },
+        {
+          "name": "EOS Landviewer",
+          "type": "item",
+          "url": "http://eos.com/landviewer",
+          "description": "EOS Landviewer provides free services for up to 10 images. More images and analysis are available to journalists at a discount. Contact: Artem Seredyuk artem.seredyuk@eosda.com. EOS is in the process of developing a service provisionally called EOS Media that will be providing free images and analysis of major natural disasters. [Paid]"
+        },
+        {
+          "name": "Earth Explorer",
+          "type": "item",
+          "url": "https://earthexplorer.usgs.gov/",
+          "description": "Query and order satellite images [aerial photographs]",
+          "notes": "and cartographic products"
+        },
+        {
+          "name": "F4Map",
+          "type": "item",
+          "url": "https://demo.f4map.com",
+          "description": "F4Map is an interactive 3D map visualization tool that provides detailed rendering of urban landscapes and geographical features. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/f4map"
+        },
+        {
+          "name": "Gaode Maps",
+          "type": "item",
+          "url": "https://gaode.com",
+          "description": "Gaode Maps (also known as AMap) is a mapping application and technology from the Chinese company Alibaba. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/gaode-maps"
+        },
+        {
+          "name": "GeoHints",
+          "type": "item",
+          "url": "https://geohints.com/",
+          "description": "GeoHints is a website that provides information about things like traffic lights, utility poles, bollards etc. for different regions of the world to help geolocate a location. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/geohints"
+        },
+        {
+          "name": "Geograph",
+          "type": "item",
+          "url": "http://geograph.org/",
+          "description": "Georeferenced images. [Free]"
+        },
+        {
+          "name": "Gjirafa",
+          "type": "item",
+          "url": "https://gjirafa.biz/",
+          "description": "Mapping service for Albania (specially Kosovo) [Free]"
+        },
+        {
+          "name": "Global Fishing Watch Map",
+          "type": "item",
+          "url": "https://globalfishingwatch.org/map",
+          "description": "The Global Fishing Watch Map is a digital platform for investigating fishing activities worldwide by utilising satellite and AIS data. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map"
+        },
+        {
+          "name": "Global Forest Watch",
+          "type": "item",
+          "url": "https://www.globalforestwatch.org/map/",
+          "description": "Explore tree cover loss and gain data, recent deforestation and fire alerts, land use designations, carbon emissions, biodiversity metrics and more. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch"
+        },
+        {
+          "name": "Google Earth Engine",
+          "type": "item",
+          "url": "https://code.earthengine.google.com/",
+          "description": "Google Earth Engine is a platform for environmental monitoring and analysis through satellite imagery and geospatial data. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-engine"
+        },
+        {
+          "name": "Google Earth Pro",
+          "type": "item",
+          "url": "https://www.google.com/earth/about/versions/",
+          "description": "Google Earth is a geospatial tool that provides detailed, global satellite imagery, maps, 3D terrain models, and the ability to explore geographic data interactively. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro"
+        },
+        {
+          "name": "Google Earth Pro",
+          "type": "item",
+          "url": "https://www.google.com/earth/about/versions/",
+          "description": "Google Earth is a geospatial tool that provides detailed, global satellite imagery, maps, 3D terrain models, and the ability to explore geographic data interactively. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro"
+        },
+        {
+          "name": "Google Maps",
+          "type": "item",
+          "url": "https://www.google.com/maps",
+          "description": "Google Maps provides mapping information, satellite imagery and Google Street View imagery including historical Street View images. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps"
+        },
+        {
+          "name": "Google Maps",
+          "type": "item",
+          "url": "https://www.google.com/maps",
+          "description": "Google Maps provides mapping information, satellite imagery and Google Street View imagery including historical Street View images. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps"
+        },
+        {
+          "name": "Google Maps",
+          "type": "item",
+          "url": "https://www.google.com/maps",
+          "description": "Google Maps provides mapping information, satellite imagery and Google Street View imagery including historical Street View images. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps"
+        },
+        {
+          "name": "GovMap",
+          "type": "item",
+          "url": "https://www.govmap.gov.il/",
+          "description": "GovMap provides an interactive map of Israel, offering users a wide range of data including property boundaries, planning information, and infrastructure details. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/govmap"
+        },
+        {
+          "name": "GovMap",
+          "type": "item",
+          "url": "https://www.govmap.gov.il/",
+          "description": "GovMap provides an interactive map of Israel, offering users a wide range of data including property boundaries, planning information, and infrastructure details. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/govmap"
+        },
+        {
+          "name": "HERE WeGo",
+          "type": "item",
+          "url": "https://wego.here.com/",
+          "description": "Mapping service that can serve as an alternative to Google Maps or Apple Maps. [Free]"
+        },
+        {
+          "name": "HERE WeGo",
+          "type": "item",
+          "url": "https://wego.here.com/",
+          "description": "Mapping service that can serve as an alternative to Google Maps or Apple Maps. [Free]"
+        },
+        {
+          "name": "Hitta.se",
+          "type": "item",
+          "url": "https://www.hitta.se/",
+          "description": "Mapping service for Sweden [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/hitta.se"
+        },
+        {
+          "name": "Index Database",
+          "type": "item",
+          "url": "https://www.indexdatabase.de/",
+          "description": "A database of remote sensing indices and satellite imaging sensors [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/index-database"
+        },
+        {
+          "name": "Kakao Map",
+          "type": "item",
+          "url": "https://map.kakao.com",
+          "description": "A mapping application provided by South Korean technology company Kakao Corp. [Free]"
+        },
+        {
+          "name": "KartaView",
+          "type": "item",
+          "url": "https://kartaview.org/map",
+          "description": "KartaView is a crowdsourced platform for street view imagery. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/kartaview"
+        },
+        {
+          "name": "MapChecking",
+          "type": "item",
+          "url": "https://www.mapchecking.com/",
+          "description": "This tool helps you estimate and fact-check the maximum number of people standing in a given area. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/mapchecking"
+        },
+        {
+          "name": "MapSwitcher",
+          "type": "item",
+          "url": "https://github.com/david-r-edgar/MapSwitcher",
+          "description": "Chrome extension switches  between online map apps, maintaining (as far as possible) the map centre, zoom level, & directions of the source map. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/mapswitcher"
+        },
+        {
+          "name": "MapSwitcher",
+          "type": "item",
+          "url": "https://github.com/david-r-edgar/MapSwitcher",
+          "description": "Chrome extension switches  between online map apps, maintaining (as far as possible) the map centre, zoom level, & directions of the source map. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/mapswitcher"
+        },
+        {
+          "name": "MapSwitcher",
+          "type": "item",
+          "url": "https://github.com/david-r-edgar/MapSwitcher",
+          "description": "Chrome extension switches  between online map apps, maintaining (as far as possible) the map centre, zoom level, & directions of the source map. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/mapswitcher"
+        },
+        {
+          "name": "Mapa.sk",
+          "type": "item",
+          "url": "http://mapa.sk/",
+          "description": "Mapping service for Slovakia [Free]"
+        },
+        {
+          "name": "Mapillary",
+          "type": "item",
+          "url": "https://www.mapillary.com/",
+          "description": "Mapillary is a crowdsourced street-level imagery platform. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/mapillary"
+        },
+        {
+          "name": "Mapillary",
+          "type": "item",
+          "url": "https://www.mapillary.com/",
+          "description": "Mapillary is a crowdsourced street-level imagery platform. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/mapillary"
+        },
+        {
+          "name": "Mappy",
+          "type": "item",
+          "url": "http://en.mappy.com/",
+          "description": "Mapping service (and streetview in a couple of French cities [double check this!]) [Free]"
+        },
+        {
+          "name": "Maritime Awareness Project",
+          "type": "item",
+          "url": "https://map.nbr.org/interactivemap/",
+          "description": "South China Sea maps with oil and gas fields, fishing areas, air defense zones and administrative, claimed, disputed zones, submarine data cables. [Free]"
+        },
+        {
+          "name": "NASA FIRMS",
+          "type": "item",
+          "url": "https://firms2.modaps.eosdis.nasa.gov/map/",
+          "description": "Displays a world map overlaid with infra-red data from one or more satellites, some, but not all of which may represent heat from fires and explosions. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-firms"
+        },
+        {
+          "name": "NASA Worldview",
+          "type": "item",
+          "url": "https://worldview.earthdata.nasa.gov/",
+          "description": "NASA Worldview is an online tool for visualizing and downloading near real-time satellite imagery and scientific data of Earth's atmosphere, land, and oceans. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-worldview"
+        },
+        {
+          "name": "Nullschool Earth Map",
+          "type": "item",
+          "url": "https://earth.nullschool.net/#current",
+          "description": "View current and historic wind, weather, ocean and pollution conditions on an interactive animated map. [Free]"
+        },
+        {
+          "name": "OpenAerialMap",
+          "type": "item",
+          "url": "https://openaerialmap.org/",
+          "description": "Platform for accessing open-licensed satellite and unmanned aerial vehicle (UAV) imagery [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/openaerialmap"
+        },
+        {
+          "name": "OpenInfraMap",
+          "type": "item",
+          "url": "https://openinframap.org/#2/26/12",
+          "description": "Power lines, telecoms, solar, oil, gas & water infrastructure mapped globally. [Free]"
+        },
+        {
+          "name": "OpenSeaMap",
+          "type": "item",
+          "url": "https://map.openseamap.org/",
+          "description": "Sea map of borders, special zones, shipping lanes, with overlays of MarineTraffic and other sources [Free]"
+        },
+        {
+          "name": "OpenStreetMap",
+          "type": "item",
+          "url": "http://openstreetmap.org/",
+          "description": "OpenStreetMap is a collaborative project to create a free editable map of the world. [Free]",
+          "notes": "[How Schoolchildren Became Pawns in Cameroon's Anglophone Crisis](https://www.bellingcat.com/news/africa/2021/07/16/how-schoolchildren-became-pawns-in-cameroons-anglophone-crisis/ )"
+        },
+        {
+          "name": "OrbTrack",
+          "type": "item",
+          "url": "https://www.orbtrack.org",
+          "description": "Predicts & describes the position & path of >10K satellites in Earth orbit, relative to points on the earth's surface input by the user, for 5 days ahead, + International Space Station video feed. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/orbtrack"
+        },
+        {
+          "name": "Overpass Turbo",
+          "type": "item",
+          "url": "https://overpass-turbo.eu/",
+          "description": "Overpass Turbo is a web-based tool for querying and visualizing OpenStreetMap crowd sourced data, aiding in extracting specific information like locations of amenities e.g.hospitals. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/overpass-turbo"
+        },
+        {
+          "name": "PeakVisor",
+          "type": "item",
+          "url": "https://peakvisor.com/",
+          "description": "Dual window views for any global location: (1) a 2-D map & (2) a 3-D rendered terrain model, with photo fitting, shade/slope mapping, sun trails & weather data. In active development for OS research. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/peakvisor"
+        },
+        {
+          "name": "Photo-Map.RU",
+          "type": "item",
+          "url": "http://photo-map.ru/",
+          "description": "Geotagged VK posts. [Free]"
+        },
+        {
+          "name": "Planet Labs",
+          "type": "item",
+          "url": "https://www.planet.com/",
+          "description": "Planet Labs PBC is an American optical satellite imagery company that sells access to imagery. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/planet-labs"
+        },
+        {
+          "name": "QGIS:",
+          "type": "item",
+          "url": "https://www.qgis.org",
+          "description": "QGIS is a free Open Source Geographic Information System (GIS). [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis"
+        },
+        {
+          "name": "QGIS:",
+          "type": "item",
+          "url": "https://www.qgis.org",
+          "description": "QGIS is a free Open Source Geographic Information System (GIS). [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis"
+        },
+        {
+          "name": "Quick geolocation search",
+          "type": "item",
+          "url": "https://cybdetective.com/quickgeolocationsearch.html",
+          "description": "A tool that brings several maps into one place for easy location search. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/quick-geolocation-search"
+        },
+        {
+          "name": "RAMMB SLIDER",
+          "type": "item",
+          "url": "https://rammb-slider.cira.colostate.edu/",
+          "description": "Real-time weather satellites of the entire globe [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/rammb-slider"
+        },
+        {
+          "name": "Radar Interference Tracker (RIT)",
+          "type": "item",
+          "url": "https://ollielballinger.users.earthengine.app/view/bellingcat-radar-interference-tracker#lon=49.9507;lat=26.6056;zoom=4;",
+          "description": "Bellingcat's radar interference tracker can be used to locate and monitor active military radar systems. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/radar-interference-tracker"
+        },
+        {
+          "name": "Resource Watch",
+          "type": "item",
+          "url": "https://resourcewatch.org/",
+          "description": "A free open-data platform that hosts 300+ datasets on different topics relating to the environment, people and resources, including real-time datasets. [Free]"
+        },
+        {
+          "name": "Resource Watch",
+          "type": "item",
+          "url": "https://resourcewatch.org/",
+          "description": "A free open-data platform that hosts 300+ datasets on different topics relating to the environment, people and resources, including real-time datasets. [Free]"
+        },
+        {
+          "name": "Satellites.pro",
+          "type": "item",
+          "url": "https://satellites.pro/",
+          "description": "Satellites.pro allows open source researchers to quickly switch between several free satellite imagery and mapping services. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/satellites.pro"
+        },
+        {
+          "name": "Satellites.pro",
+          "type": "item",
+          "url": "https://satellites.pro/",
+          "description": "Satellites.pro allows open source researchers to quickly switch between several free satellite imagery and mapping services. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/satellites.pro"
+        },
+        {
+          "name": "ShadeMap",
+          "type": "item",
+          "url": "https://shademap.app",
+          "description": "ShadeMap is a global simulation of mountain, building & tree shadows for a given date & time. Base data is free, but users can buy 30cm accurate data per sq km for areas of special focus. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/shademap"
+        },
+        {
+          "name": "ShadowMap",
+          "type": "item",
+          "url": "https://app.shadowmap.org/",
+          "description": "Global map of 3D buildlings and the shadows they cast at a specific time a day [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/shadowmap"
+        },
+        {
+          "name": "SkyFi",
+          "type": "item",
+          "url": "https://skyfi.com/",
+          "description": "SkyFi is used to purchase commercial satellite imagery and task (order the collection of images) satellites without a subscription. [Paid]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/skyfi"
+        },
+        {
+          "name": "Soar.earth",
+          "type": "item",
+          "url": "https://soar.earth/?pos=-24.806025673047216%2C112.37019712776902%2C7",
+          "description": "Aerial, satellite and drone imagery on a global map. [Paid]"
+        },
+        {
+          "name": "Strava",
+          "type": "item",
+          "url": "https://www.strava.com",
+          "description": "Social media fitness app with exercise map ubased on users' GPS data. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/strava"
+        },
+        {
+          "name": "Tencent Maps",
+          "type": "item",
+          "url": "http://map.qq.com/",
+          "description": "Tencent Maps (formerly SOSO Maps) is a desktop and web mapping service application and technology provided by Chinese company Tencent, offering satellite imagery, street maps, street view (coverage) and historical view perspectives. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/tencent-maps"
+        },
+        {
+          "name": "Tencent Maps",
+          "type": "item",
+          "url": "http://map.qq.com/",
+          "description": "Tencent Maps (formerly SOSO Maps) is a desktop and web mapping service application and technology provided by Chinese company Tencent, offering satellite imagery, street maps, street view (coverage) and historical view perspectives. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/tencent-maps"
+        },
+        {
+          "name": "Tencent Maps",
+          "type": "item",
+          "url": "http://map.qq.com/",
+          "description": "Tencent Maps (formerly SOSO Maps) is a desktop and web mapping service application and technology provided by Chinese company Tencent, offering satellite imagery, street maps, street view (coverage) and historical view perspectives. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/tencent-maps"
+        },
+        {
+          "name": "The European Space Agency (ESA) - Earth Online",
+          "type": "item",
+          "url": "https://earth.esa.int/eogateway/tools",
+          "description": "The ESA's Earth Online product offers a portal for accessing satellite imagery and environmental data, supporting a range of applications from climate monitoring to natural disaster assessment. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/earth-online"
+        },
+        {
+          "name": "Topotijdreis.nl",
+          "type": "item",
+          "url": "http://topotijdreis.nl",
+          "description": "Over 200 years of maps and topography from the Netherlands. [Free]"
+        },
+        {
+          "name": "UTM grid zones",
+          "type": "item",
+          "url": "http://dmap.co.uk/utmworld.htm",
+          "description": "An overview of the Universal Transverse Mercator coordinate system. [Free]"
+        },
+        {
+          "name": "Umbra Space",
+          "type": "item",
+          "url": "https://umbra.space/",
+          "description": "Umbra is an American synthetic aperture radar (SAR) satellite imaging company that sells on-demand taskings for satellite imagery. [Paid]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/umbra-space"
+        },
+        {
+          "name": "Wikimapia",
+          "type": "item",
+          "url": "https://wikimapia.org/",
+          "description": "Wikimapia was a long-running collaborative mapping project that remains partially accessible, providing open source researchers with a unique database of historical, user-generated content. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/wikimapia"
+        },
+        {
+          "name": "Wikimapia",
+          "type": "item",
+          "url": "https://wikimapia.org/",
+          "description": "Wikimapia was a long-running collaborative mapping project that remains partially accessible, providing open source researchers with a unique database of historical, user-generated content. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/wikimapia"
+        },
+        {
+          "name": "Yandex Maps",
+          "type": "item",
+          "url": "https://yandex.com/maps/",
+          "description": "A platform offering detailed maps, satellite imagery, street views (static & sometimes dynamic imagery, including aerial views). Often the best available data on Russia & surrounding regions. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps"
+        },
+        {
+          "name": "Yandex Maps",
+          "type": "item",
+          "url": "https://yandex.com/maps/",
+          "description": "A platform offering detailed maps, satellite imagery, street views (static & sometimes dynamic imagery, including aerial views). Often the best available data on Russia & surrounding regions. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps"
+        },
+        {
+          "name": "Yandex Maps",
+          "type": "item",
+          "url": "https://yandex.com/maps/",
+          "description": "A platform offering detailed maps, satellite imagery, street views (static & sometimes dynamic imagery, including aerial views). Often the best available data on Russia & surrounding regions. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps"
+        },
+        {
+          "name": "mapy.cz",
+          "type": "item",
+          "url": "http://mapy.cz",
+          "description": "Mapping service for Czechia [Free]"
+        },
+        {
+          "name": "what3words",
+          "type": "item",
+          "url": "http://what3words.com/",
+          "description": "A proprietary geocode system which identifies any location on the surface of the earth to a resolution of 3 metres. The identifier is a unique combination of three words, available in 60 languagues. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/what3words"
+        },
+        {
+          "name": "what3words",
+          "type": "item",
+          "url": "http://what3words.com/",
+          "description": "A proprietary geocode system which identifies any location on the surface of the earth to a resolution of 3 metres. The identifier is a unique combination of three words, available in 60 languagues. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/what3words"
+        },
+        {
+          "name": "what3words",
+          "type": "item",
+          "url": "http://what3words.com/",
+          "description": "A proprietary geocode system which identifies any location on the surface of the earth to a resolution of 3 metres. The identifier is a unique combination of three words, available in 60 languagues. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/what3words"
+        }
+      ]
+    },
+    {
+      "name": "Military & Conflicts",
+      "type": "folder",
+      "children": [
+        {
+          "name": "ACLED (Armed Conflict Location & Event Data Project)",
+          "type": "item",
+          "url": "https://acleddata.com/",
+          "description": "ACLED provides data and analysis on political violence and protest around the world, facilitating research, policy making, and journalistic reporting. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/acled"
+        },
+        {
+          "name": "Bulletpicker.com",
+          "type": "item",
+          "url": "https://www.bulletpicker.com/index.html",
+          "description": "Bulletpicker.com is a collection of ammunition guidebooks and manuals from several different armed forces. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/bulletpicker.com"
+        },
+        {
+          "name": "CAT-UXO",
+          "type": "item",
+          "url": "https://cat-uxo.com/",
+          "description": "A repository for professionals working in the explosive ordnance disposal (EOD) space. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/cat-uxo"
+        },
+        {
+          "name": "LiveUAMap",
+          "type": "item",
+          "url": "https://liveuamap.com/",
+          "description": "LiveUAMap is a mapping tool that provides up-to-date information on global geopolitical events, conflicts, and crises. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/liveuamap"
+        },
+        {
+          "name": "Open Source Munitions Portal",
+          "type": "item",
+          "url": "https://osmp.ngo/",
+          "description": "A searchable library of verified images for researchers, journalists, and practitioners trying to learn more about munitions and their use and impact in conflict. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/open-source-munitions-portal"
+        },
+        {
+          "name": "Police Records Access Project",
+          "type": "item",
+          "url": "https://clean.calmatters.org/",
+          "description": "A database providing searchable access to California law enforcement records including police use-of-force incidents, shootings, and misconduct cases. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/police-records-access-project"
+        }
+      ]
+    },
+    {
+      "name": "People Search Engines",
+      "type": "folder",
+      "children": [
+        {
+          "name": "192.com",
+          "type": "item",
+          "url": "http://www.192.com/",
+          "description": "Searching for someone's address in the UK, phone number and who they live with according to electoral rolls. [Free]",
+          "notes": "📞 United Kingdom"
+        },
+        {
+          "name": "Bellingcat Name Variant Search",
+          "type": "item",
+          "url": "https://bellingcat.github.io/name-variant-search/",
+          "description": "Simple tool to help search for different ways of writing a name. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/name-variant-search"
+        },
+        {
+          "name": "Blackbird",
+          "type": "item",
+          "url": "https://github.com/p1ngul1n0/blackbird",
+          "description": "Check usernames and email addresses on websites and social networks [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/blackbird"
+        },
+        {
+          "name": "DeHashed",
+          "type": "item",
+          "url": "https://dehashed.com/",
+          "description": "A platform that maintains a database of compromised credentials, with a newly-launched web domain registration search tool. [Paid]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/dehashed"
+        },
+        {
+          "name": "DiscordLeaks",
+          "type": "item",
+          "url": "https://discordleaks.unicornriot.ninja/",
+          "description": "Search hundreds of thousands of messages leaked from 290+ white-supremacist / nazi discord servers. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/discordleaks"
+        },
+        {
+          "name": "Eniro",
+          "type": "item",
+          "url": "https://www.eniro.se/",
+          "description": "Yellow Pages (Swedish Edition) [Free]",
+          "notes": "📞 Sweden"
+        },
+        {
+          "name": "Epieos",
+          "type": "item",
+          "url": "https://tools.epieos.com/holehe.php",
+          "description": "Checks where an email has been used. Based on Holehe. [Paid]",
+          "notes": "📧 Registration required"
+        },
+        {
+          "name": "FastPeopleSearch",
+          "type": "item",
+          "url": "http://fastpeoplesearch.com/",
+          "description": "Mostly good for US. [Free]",
+          "notes": "📞🗣️ mostly United States"
+        },
+        {
+          "name": "GetContact",
+          "type": "item",
+          "url": "https://www.getcontact.com/en/",
+          "description": "Phonenumber ID app - draws from crowdsourced contactbooks [Free]",
+          "notes": "📞 Do not give permission to your actual contact lists."
+        },
+        {
+          "name": "Ghunt",
+          "type": "item",
+          "url": "https://github.com/mxrch/GHunt",
+          "description": "A command line tool for obtaining information about Google accounts. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/ghunt"
+        },
+        {
+          "name": "Have I Been Pwned",
+          "type": "item",
+          "url": "https://haveibeenpwned.com/",
+          "description": "Does an email or a phone number appear in data breaches? [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/have-i-been-pwned"
+        },
+        {
+          "name": "Hitta.se",
+          "type": "item",
+          "url": "https://www.hitta.se/",
+          "description": "Mapping service for Sweden [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/hitta.se"
+        },
+        {
+          "name": "Intelx.io",
+          "type": "item",
+          "url": "http://intelx.io/",
+          "description": "Find user details in data breaches [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/intelx.io"
+        },
+        {
+          "name": "Leak-Lookup",
+          "type": "item",
+          "url": "https://leak-lookup.com/",
+          "description": "An online tool that allows you to search across public data breaches to surface credentials that may have been compromised. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/leak-lookup"
+        },
+        {
+          "name": "Maigret",
+          "type": "item",
+          "url": "https://github.com/soxoj/maigret",
+          "description": "Maigret is a Python script that retrieves user information by searching for usernames across various websites and social media platforms. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/maigret"
+        },
+        {
+          "name": "Namechk",
+          "type": "item",
+          "url": "https://namechk.com/",
+          "description": "A username and domain search tool that checks on which platforms or domain a given username is registered. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/namechk"
+        },
+        {
+          "name": "NeutrOSINT",
+          "type": "item",
+          "url": "https://github.com/Kr0wZ/NeutrOSINT",
+          "description": "A tool for investigating Proton Mail addresses. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/neutrosint"
+        },
+        {
+          "name": "NigeriaPhonebook",
+          "type": "item",
+          "url": "https://nigeriaphonebook.com/",
+          "description": "Look up by name, state, and phone number. Last names are partially censored for free accounts. [Free]",
+          "notes": "📞🗣️ Nigeria"
+        },
+        {
+          "name": "Person Lookup",
+          "type": "item",
+          "url": "https://personlookup.co.za/",
+          "description": "find individuals, phonenumbers, and adresses [Free]",
+          "notes": "📞🗣️ South Africa"
+        },
+        {
+          "name": "Pipl",
+          "type": "item",
+          "url": "http://pipl.com/",
+          "description": "Identity information for professionals [Paid]",
+          "notes": "📞🗣️📧"
+        },
+        {
+          "name": "Ratsit",
+          "type": "item",
+          "url": "https://www.ratsit.se/",
+          "description": "Look up phone numbers/names (Sweden) [Free]",
+          "notes": "📞🗣️ Sweden"
+        },
+        {
+          "name": "Resource Watch",
+          "type": "item",
+          "url": "https://resourcewatch.org/",
+          "description": "A free open-data platform that hosts 300+ datasets on different topics relating to the environment, people and resources, including real-time datasets. [Free]"
+        },
+        {
+          "name": "Search Systems",
+          "type": "item",
+          "url": "https://publicrecords.searchsystems.net/",
+          "description": "Finding public record information online in over 70,000 databases organized by type and location to help you find property, criminal, court, birth, death, marriage, divorce records, licenses, deeds, mortgages, corporate records, business registration, and many other public record resources. [Free]",
+          "notes": "📞🗣️ US"
+        },
+        {
+          "name": "Sherlock",
+          "type": "item",
+          "url": "https://github.com/sherlock-project/sherlock",
+          "description": "Check usernames across more than 400 websites and social networks. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock"
+        },
+        {
+          "name": "Skopenow",
+          "type": "item",
+          "url": "https://www.skopenow.com/",
+          "description": "Social Media Investigations - name, phone, email, username searches [Paid]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/skopenow"
+        },
+        {
+          "name": "Spokeo",
+          "type": "item",
+          "url": "http://spokeo.com/",
+          "description": "People search through email, phone, name [Paid]",
+          "notes": "📞🗣️📧"
+        },
+        {
+          "name": "Swedish Name Register",
+          "type": "item",
+          "url": "https://scb.se/hitta-statistik/sverige-i-siffror/namnsok/",
+          "description": "Find out how common a name is in Sweden based on census data [Free]",
+          "notes": "🗣️ Sweden"
+        },
+        {
+          "name": "The Law Pages",
+          "type": "item",
+          "url": "https://www.thelawpages.com/court-cases/court-case-search.php?mode=1",
+          "description": "Search criminal court case details in the UK, such as sentence, hearing, defendant, etc. [Free]",
+          "notes": "🗣️ United Kingdom"
+        },
+        {
+          "name": "ThisNumber",
+          "type": "item",
+          "url": "https://sur.ly/o/numberway.com/AA000014",
+          "description": "An international directory of white pages and yellow pages phone books, and online directory enquiries. It's a free, independent and up-to-date guide to telephone directories on the web. [Free]",
+          "notes": "📞"
+        },
+        {
+          "name": "TrueCaller",
+          "type": "item",
+          "url": "https://www.truecaller.com/",
+          "description": "Truecaller is a caller ID app that identifies incoming calls, blocks unwanted numbers, and gathers phone numbers and names from contact lists. It also performs a reverse phone number search. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/truecaller"
+        },
+        {
+          "name": "TruffleHog",
+          "type": "item",
+          "url": "https://trufflesecurity.com/trufflehog",
+          "description": "Find leaked credentials. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/trufflehog"
+        },
+        {
+          "name": "US court case databases",
+          "type": "item",
+          "url": "./#case-databases-by-state",
+          "description": "State-by-state guide for researching criminal and civil court cases [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/us-court-case-databases"
+        },
+        {
+          "name": "WAtools.io",
+          "type": "item",
+          "url": "http://watools.io/",
+          "description": "Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status. [Paid]",
+          "notes": "📞"
+        },
+        {
+          "name": "WhatsMyName",
+          "type": "item",
+          "url": "https://whatsmyname.app/",
+          "description": "Search for usernames on several hundred platforms [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/whats-my-name"
+        },
+        {
+          "name": "Worldwide Osint Tools map",
+          "type": "item",
+          "url": "https://cipher387.github.io/osintmap/",
+          "description": "Global overview of yellow/white pages, court cases, business registries etc. [Free]",
+          "notes": "📞🗣️"
+        }
+      ]
+    },
+    {
+      "name": "Social Networks",
+      "type": "folder",
+      "children": [
+        {
+          "name": "4plebs",
+          "type": "item",
+          "url": "https://4plebs.org/",
+          "description": "Searchable archive of specific 4chan boards. Makes it possible to read threads after they are purged from 4chan. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/4plebs"
+        },
+        {
+          "name": "Bellingcat TikTok Date Extract",
+          "type": "item",
+          "url": "https://bellingcat.github.io/tiktok-timestamp",
+          "description": "Get the exact upload date + time for tiktok video urls [Free]",
+          "notes": "Guide: [How to Investigate TikTok Like a Pro - Part II: Using TikTok for Ukraine Research](https://www.bellingcat.com/resources/how-tos/2022/11/02/how-to-investigate-tiktok-using-tiktok-ukraine-research/ )"
+        },
+        {
+          "name": "Bellingcat TikTok Hashtag Analysis",
+          "type": "item",
+          "url": "https://github.com/bellingcat/tiktok-hashtag-analysis",
+          "description": "Archive content and metadata from TikTok posts that contain one or more specified hashtags [Free]"
+        },
+        {
+          "name": "Blackbird",
+          "type": "item",
+          "url": "https://github.com/p1ngul1n0/blackbird",
+          "description": "Check usernames and email addresses on websites and social networks [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/blackbird"
+        },
+        {
+          "name": "Blackbird",
+          "type": "item",
+          "url": "https://github.com/p1ngul1n0/blackbird",
+          "description": "Check usernames and email addresses on websites and social networks [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/blackbird"
+        },
+        {
+          "name": "Bluesky Insights",
+          "type": "item",
+          "url": "https://bskyinsights.com",
+          "description": "Bluesky Insights is a free web-based analytics tool for the Bluesky social network. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/bluesky-insights"
+        },
+        {
+          "name": "BskyFollowFinder",
+          "type": "item",
+          "url": "https://bsky-follow-finder.theo.io/",
+          "description": "A tool that identifies which Bluesky accounts are followed by a profile's contacts but not by that profile. Can be used for expanding networks and social graph analysis. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/bluesky-network-analyzer"
+        },
+        {
+          "name": "BskyThreadReader",
+          "type": "item",
+          "url": "https://bskythreadreader.glitch.me/",
+          "description": "BskyThreadReader is a web-based Bluesky thread viewer that allows anyone to read and share Bluesky threads without logging in. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/bskythreadreader"
+        },
+        {
+          "name": "ClubhouseDB",
+          "type": "item",
+          "url": "https://clubhousedb.com/",
+          "description": "Search users, number of followers/following, and date of registry [Free]"
+        },
+        {
+          "name": "Disboard",
+          "type": "item",
+          "url": "https://disboard.org/servers",
+          "description": "Search for public discord servers [Free]"
+        },
+        {
+          "name": "Discord Chat Exporter",
+          "type": "item",
+          "url": "https://github.com/Tyrrrz/DiscordChatExporter",
+          "description": "A tool for exporting Discord chat logs in multiple formats. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/discord-chat-exporter"
+        },
+        {
+          "name": "DiscordLeaks",
+          "type": "item",
+          "url": "https://discordleaks.unicornriot.ninja/",
+          "description": "Search hundreds of thousands of messages leaked from 290+ white-supremacist / nazi discord servers. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/discordleaks"
+        },
+        {
+          "name": "Email to LinkedIn (Epieos)",
+          "type": "item",
+          "url": "https://tools.epieos.com/linkedin.php",
+          "description": "Check if an email address is connected to a LinkedIn Profile [Free]"
+        },
+        {
+          "name": "F5Bot",
+          "type": "item",
+          "url": "https://f5bot.com/",
+          "description": "Sends you an email when a keyword is mentioned on Reddit. [Free]"
+        },
+        {
+          "name": "Facebook Video Downloader",
+          "type": "item",
+          "url": "http://fdown.net/",
+          "description": "Handy website to download public Facebook videos. Copy paste the URL of the video and download it in the available definition formats. [Free]"
+        },
+        {
+          "name": "FindClone",
+          "type": "item",
+          "url": "https://findclone.ru/",
+          "description": "Searches images from VK profiles (within certain limits) [Free]"
+        },
+        {
+          "name": "Ghunt",
+          "type": "item",
+          "url": "https://github.com/mxrch/GHunt",
+          "description": "A command line tool for obtaining information about Google accounts. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/ghunt"
+        },
+        {
+          "name": "Google Account Finder (EPIEOS)",
+          "type": "item",
+          "url": "https://tools.epieos.com/google-account.php",
+          "description": "Find the profile picture and public Google Map Reviews + Photos associated with a G-mail adress. Also checks for phone numbers, and checks for email addresses on social networks [Free]"
+        },
+        {
+          "name": "Gravatar Email Checker",
+          "type": "item",
+          "url": "https://en.gravatar.com/site/check/",
+          "description": "Check if an email address has been used to comment on blogs and whether there is a profile image attached. [Free]"
+        },
+        {
+          "name": "Have I Been Pwned",
+          "type": "item",
+          "url": "https://haveibeenpwned.com/",
+          "description": "Does an email or a phone number appear in data breaches? [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/have-i-been-pwned"
+        },
+        {
+          "name": "HaveIBeenZuckered",
+          "type": "item",
+          "url": "https://haveibeenzuckered.com/",
+          "description": "Check if a telephone number is present within the Facebook data breach. [Free]"
+        },
+        {
+          "name": "Hoaxy",
+          "type": "item",
+          "url": "https://hoaxy.osome.iu.edu/",
+          "description": "Hoaxy is a web-based search and visualization tool. It helps visualize the spread of information on Bluesky and X (Twitter). [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/hoaxy"
+        },
+        {
+          "name": "InstaLoader",
+          "type": "item",
+          "url": "https://instaloader.github.io",
+          "description": "Download pictures or videos (with metadata) from Instagram. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/instaloader"
+        },
+        {
+          "name": "Instagram Location Search",
+          "type": "item",
+          "url": "https://github.com/bellingcat/instagram-location-search/tree/main",
+          "description": "A command line tool that allows users to find location tags near a specified latitude and longitude. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/instagram-location-search"
+        },
+        {
+          "name": "Intelligence X Telegram Search",
+          "type": "item",
+          "url": "https://intelx.io/tools?tab=telegram",
+          "description": "Google-based search engine for Telegram (includes Telegago) [Free]"
+        },
+        {
+          "name": "Intelx.io",
+          "type": "item",
+          "url": "http://intelx.io/",
+          "description": "Find user details in data breaches [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/intelx.io"
+        },
+        {
+          "name": "LinkdTime",
+          "type": "item",
+          "url": "https://github.com/Lucksi/LinkdTime",
+          "description": "Build a clean timeline of any LinkedIn activity from a single URL or a whole list of links. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/linkdtime"
+        },
+        {
+          "name": "MW Geofind",
+          "type": "item",
+          "url": "https://mattw.io/youtube-geofind/location",
+          "description": "MW Geofind is a tool designed to help users identify the filming location of YouTube videos, facilitating the exploration of global content from a geographical perspective. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/mw-geofind"
+        },
+        {
+          "name": "Meta Content Library",
+          "type": "item",
+          "url": "https://transparency.meta.com/researchtools/meta-content-library",
+          "description": "Meta Content Library is a controlled-access tool that lets approved academic and non-profit researchers search the full public archive of Facebook, Instagram, and Threads posts, in near-real-time. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/meta-content-library"
+        },
+        {
+          "name": "NameMC",
+          "type": "item",
+          "url": "https://namemc.com/",
+          "description": "Find usernames, track username changes on minecraft [Free]"
+        },
+        {
+          "name": "Namechk",
+          "type": "item",
+          "url": "https://namechk.com/",
+          "description": "A username and domain search tool that checks on which platforms or domain a given username is registered. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/namechk"
+        },
+        {
+          "name": "Open Measures",
+          "type": "item",
+          "url": "https://public.openmeasures.io",
+          "description": "Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/open-measures"
+        },
+        {
+          "name": "Open Measures",
+          "type": "item",
+          "url": "https://public.openmeasures.io",
+          "description": "Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/open-measures"
+        },
+        {
+          "name": "Open Measures",
+          "type": "item",
+          "url": "https://public.openmeasures.io",
+          "description": "Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/open-measures"
+        },
+        {
+          "name": "Open Measures",
+          "type": "item",
+          "url": "https://public.openmeasures.io",
+          "description": "Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/open-measures"
+        },
+        {
+          "name": "PSNprofiles",
+          "type": "item",
+          "url": "https://psnprofiles.com/",
+          "description": "Search PlayStation username, see daily activity, games played, country, and profile pic [Free]"
+        },
+        {
+          "name": "Parler Video Uploads Map",
+          "type": "item",
+          "url": "https://kylemcdonald.net/parler/map/",
+          "description": "A map showing the approximate (100ft) location of where Parler videos have been uploaded. [Free]"
+        },
+        {
+          "name": "Photo-Map.RU",
+          "type": "item",
+          "url": "http://photo-map.ru/",
+          "description": "Geotagged VK posts. [Free]"
+        },
+        {
+          "name": "RadiTube",
+          "type": "item",
+          "url": "https://tool.raditube.com/",
+          "description": "A search engine that searches the subtitles of about 380 (right/left) radical YouTube channels. You query for example for q says of voter fraud in 170,000 videos, and the search results will link you to the specific time-code in the video. [Free]"
+        },
+        {
+          "name": "Redective",
+          "type": "item",
+          "url": "https://www.redective.com/",
+          "description": "Analyse Reddit profiles - incl word frequency and active hours [Free]"
+        },
+        {
+          "name": "Sherlock",
+          "type": "item",
+          "url": "https://github.com/sherlock-project/sherlock",
+          "description": "Check usernames across more than 400 websites and social networks. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock"
+        },
+        {
+          "name": "Sherlock",
+          "type": "item",
+          "url": "https://github.com/sherlock-project/sherlock",
+          "description": "Check usernames across more than 400 websites and social networks. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock"
+        },
+        {
+          "name": "Skopenow",
+          "type": "item",
+          "url": "https://www.skopenow.com/",
+          "description": "Social Media Investigations - name, phone, email, username searches [Paid]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/skopenow"
+        },
+        {
+          "name": "Snap Map",
+          "type": "item",
+          "url": "https://map.snapchat.com",
+          "description": "Searchable map of geotagged snaps. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/snap-map"
+        },
+        {
+          "name": "Social-searcher",
+          "type": "item",
+          "url": "https://www.social-searcher.com/",
+          "description": "Search hashtags and usernames across various platforms. [Partially Free]"
+        },
+        {
+          "name": "Sowdust FB search",
+          "type": "item",
+          "url": "http://sowsearch.info",
+          "description": "[graph.tips/beta](http://graph.tips/beta) This page tries to be a simple interface to show how the current Facebook search function works, after Graph search was closed. [Free]"
+        },
+        {
+          "name": "SteamId.uk",
+          "type": "item",
+          "url": "http://steamid.uk/",
+          "description": "Lookup player names, view (more) previously used names, and when accounts befriended eachother (Free). View screenshots of account, (bulk) seach based on previously used names (paid). [Partially Free]"
+        },
+        {
+          "name": "Story Saver",
+          "type": "item",
+          "url": "https://storysaver.net",
+          "description": "Download public Instagram Stories, Highlights and Videos. [Free]"
+        },
+        {
+          "name": "Strava",
+          "type": "item",
+          "url": "https://www.strava.com",
+          "description": "Social media fitness app with exercise map based on users' GPS data. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/strava"
+        },
+        {
+          "name": "TGStat",
+          "type": "item",
+          "url": "https://tgstat.com/",
+          "description": "TGStat is a web-based analytics tool for Telegram that monitors active channels and provides profile analytics and statistics. It tracks channel subscribers' growth rate, reach, and citation index. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/tgstat"
+        },
+        {
+          "name": "Telegago",
+          "type": "item",
+          "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg",
+          "description": "Telegago is a Google Custom Search Engine tailored for searching public Telegram content for OSINT purposes. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/telegago"
+        },
+        {
+          "name": "Telegram Group Joiner",
+          "type": "item",
+          "url": "https://bellingcat.github.io/telegram-group-joiner/",
+          "description": "Automate joining multiple Telegram groups and channels, ideal for researchers monitoring specific topics. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/telegram-group-joiner"
+        },
+        {
+          "name": "Telegram Phone Number Checker",
+          "type": "item",
+          "url": "https://colab.research.google.com/github/bellingcat/open-source-research-notebooks/blob/main/notebooks/bellingcat/telegram-phone-number-checker.ipynb",
+          "description": "Command line tool for checking if phone numbers are connected to Telegram accounts and retrieving related information where available. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/telegram-phone-number-checker"
+        },
+        {
+          "name": "TelegramDB",
+          "type": "item",
+          "url": "https://www.telegramdb.org/",
+          "description": "TelegramDB is a searchable database service that allows users to explore public Telegram groups and channels via a dedicated bot. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/telegramdb"
+        },
+        {
+          "name": "Telemetrio",
+          "type": "item",
+          "url": "https://telemetr.io/",
+          "description": "Telemetr.io offers a range of Telegram-related services based on a catalog of Telegram channels: country and category-specific rankings, curated collections, real-time event tracking, and an API. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/telemetrio"
+        },
+        {
+          "name": "Telemetry",
+          "type": "item",
+          "url": "https://www.telemetryapp.io/",
+          "description": "An analytical search tool for Telegram groups and channels. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/telemetry"
+        },
+        {
+          "name": "Telepathy",
+          "type": "item",
+          "url": "https://github.com/proseltd/Telepathy-Community?utm_source=chatgpt.com",
+          "description": "Telepathy is a versatile Telegram toolkit for OSINT analysts, enabling chat archiving, memberlist gathering, user location lookup, top poster analysis, message mapping, and more. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/telepathy"
+        },
+        {
+          "name": "TikTokApi",
+          "type": "item",
+          "url": "https://pypi.org/project/TikTokApi",
+          "description": "Python - This is an unofficial api wrapper for TikTok.com in python. With this api you are able to call most trending and fetch specific user information as well as much more. [Free]"
+        },
+        {
+          "name": "Twitter Video Downloader",
+          "type": "item",
+          "url": "https://twittervideodownloader.com/",
+          "description": "Download videos from X (formerly Twitter) by converting tweet URLs into downloadable video links. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/twitter-video-downloader"
+        },
+        {
+          "name": "Twitter/X Advanced Search",
+          "type": "item",
+          "url": "https://x.com/search-advanced",
+          "description": "Twitter/X Advanced Search is X's own tool to help users find more precise information on the platform by filtering posts according to criteria such as location, user, date or popularity. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/twitter-advanced-search"
+        },
+        {
+          "name": "Twitter/X Location Search",
+          "type": "item",
+          "url": "https://twitter.com/explore",
+          "description": "Search for geocoded tweets by their distance from some coordinates. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/twitter-location-search"
+        },
+        {
+          "name": "Vk.watch",
+          "type": "item",
+          "url": "http://vk.watch/",
+          "description": "See public comments left by an account, profile photos used, and very basic facial recognition [Free]"
+        },
+        {
+          "name": "WAtools.io",
+          "type": "item",
+          "url": "http://watools.io/",
+          "description": "Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status. [Paid]",
+          "notes": "📞"
+        },
+        {
+          "name": "WhatsMyName",
+          "type": "item",
+          "url": "https://whatsmyname.app/",
+          "description": "Search for usernames on several hundred platforms [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/whats-my-name"
+        },
+        {
+          "name": "Who posted what?",
+          "type": "item",
+          "url": "https://whopostedwhat.com/",
+          "description": "A tool that allows a keyword search on Facebook on a specific date or within a specific time frame. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/who-posted-what"
+        },
+        {
+          "name": "XboxGamertag",
+          "type": "item",
+          "url": "https://xboxgamertag.com/",
+          "description": "Search gamertags, see games played and recorded game clips [Free]"
+        },
+        {
+          "name": "YouTube Metadata",
+          "type": "item",
+          "url": "https://mattw.io/youtube-metadata/",
+          "description": "An alternative to Amnesty's YT viewer, with slightly more information. [Free]"
+        },
+        {
+          "name": "holehe",
+          "type": "item",
+          "url": "https://github.com/megadose/holehe",
+          "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function. [Free]"
+        },
+        {
+          "name": "tlgrm.eu channels",
+          "type": "item",
+          "url": "http://tlgrm.eu/channels",
+          "description": "Search Telegram channels. [Free]"
+        },
+        {
+          "name": "youtube-dl",
+          "type": "item",
+          "url": "http://rg3.github.io/youtube-dl/",
+          "description": "Python tool to download from a variety of sources. Select video / audio formats, quality etc. Updated frequently to support parsing the relevant sources [Free]"
+        }
+      ]
+    },
+    {
+      "name": "Transportation",
+      "type": "folder",
+      "children": [
+        {
+          "name": "ADS-B Exchange",
+          "type": "item",
+          "url": "https://globe.adsbexchange.com/",
+          "description": "Live flight tracker (including many miltiary aircraft). Live data available for the past month. Historical data available for purchase by request. [Free]",
+          "notes": "✈️ [A Beginner's Guide To Flight Tracking](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/ )"
+        },
+        {
+          "name": "AirNav RadarBox",
+          "type": "item",
+          "url": "http://radarbox24.com/",
+          "description": "Live flight tracker. [Free]",
+          "notes": "✈️"
+        },
+        {
+          "name": "Airfleets",
+          "type": "item",
+          "url": "http://airfleets.net/home",
+          "description": "Database for aircraft details. [Free]",
+          "notes": "✈️"
+        },
+        {
+          "name": "Airframes",
+          "type": "item",
+          "url": "http://www.airframes.org/",
+          "description": "A database of aircraft details [Free]",
+          "notes": "✈️"
+        },
+        {
+          "name": "Aviation Safety Network",
+          "type": "item",
+          "url": "https://aviation-safety.net/",
+          "description": "Aircraft incident database; can be searched by country, registration, year, etc. [Free]",
+          "notes": "✈️"
+        },
+        {
+          "name": "Carnet.AI",
+          "type": "item",
+          "url": "http://carnet.ai/",
+          "description": "API which is capable of recognizing the Make [Model and Generation of most cars built since 1995]",
+          "notes": "with 97+% accuracy."
+        },
+        {
+          "name": "Chronotrains",
+          "type": "item",
+          "url": "https://www.chronotrains.com/en",
+          "description": "Chronotrains is a free interactive map designed to explore the reach of Europe's extensive rail network. Enter a starting point and travel time to see reachable destinations by train. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/chronotrains"
+        },
+        {
+          "name": "Equasis",
+          "type": "item",
+          "url": "https://www.equasis.org/",
+          "description": "Equasis provides vessel ownership and safety records, as well as shipping company fleet information. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/equasis"
+        },
+        {
+          "name": "Federal Aviation Administration",
+          "type": "item",
+          "url": "http://registry.faa.gov/aircraftinquiry/NNum_inquiry.aspx",
+          "description": "Nationwide Plane Registry. Search by N-Number (a.k.a. callsign). Comprehensive list of privately owned planes in the US. [Free]",
+          "notes": "✈️"
+        },
+        {
+          "name": "FlightAware",
+          "type": "item",
+          "url": "https://www.flightaware.com/live/",
+          "description": "FlightAware is a global flight-tracking platform that provides real-time data on aircraft movements. It offers live tracking, historical data, and predictive analytics via its website and apps. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/flightaware"
+        },
+        {
+          "name": "Flightradar24",
+          "type": "item",
+          "url": "https://www.flightradar24.com",
+          "description": "Flightradar24, a real-time flight tracking service, that provides comprehensive information about aircraft positions, flight numbers, routes, historical data, detailed aircraft specifications. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/flightradar24"
+        },
+        {
+          "name": "GPSJam",
+          "type": "item",
+          "url": "https://gpsjam.org/",
+          "description": "GPSJam.org is a daily map that visualizes the GPS/GNSS disruptions on aircraft worldwide. It collects and presents 24-hour data showing areas experiencing interference. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/gpsjam"
+        },
+        {
+          "name": "IMO Registry",
+          "type": "item",
+          "url": "http://webaccounts.imo.org/",
+          "description": "Ship/shipping-related information from the IMO [Free]",
+          "notes": "⛵"
+        },
+        {
+          "name": "Icarus Flights",
+          "type": "item",
+          "url": "https://app.icarus.flights/",
+          "description": "Flight tracking platform with 2 years free historical data; highly customizable search parameters [Free]",
+          "notes": "✈️"
+        },
+        {
+          "name": "Illegal, unreported, unregular fishing Vessels List",
+          "type": "item",
+          "url": "https://iuu-vessels.org/Home/Search",
+          "description": "A combined list of known illegal, unreported, unregular fishing vessels [Free]",
+          "notes": "⛵"
+        },
+        {
+          "name": "License Plate Maps",
+          "type": "item",
+          "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/license-plate-maps",
+          "description": "Collection of tools and maps for discerning license plates by country [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/license-plate-maps"
+        },
+        {
+          "name": "Live ATC",
+          "type": "item",
+          "url": "http://liveatc.net/",
+          "description": "Audio from air traffic control towers in the United States. Aircraft have to identify themselves to ATC towers, so in cases where aircraft are trying to obscure their information from other sites, it might be another way to grab tail numbers or just generally track flights. More complicated to use than e.g. Flightradar24. [Free]",
+          "notes": "✈️"
+        },
+        {
+          "name": "MarineTraffic",
+          "type": "item",
+          "url": "https://www.marinetraffic.com/en/ais/home/centerx :25.0/centery:-34.5/zoom:8",
+          "description": "An open, community-based project, providing (near) real-time information on the movements of ships and their locations in harbours and ports. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/marinetraffic"
+        },
+        {
+          "name": "OpenRailwayMap",
+          "type": "item",
+          "url": "https://wiki.openstreetmap.org/wiki/OpenRailwayMap",
+          "description": "a detailed online map of the world's railway infrastructure [Free]",
+          "notes": "🚂"
+        },
+        {
+          "name": "OpenSky-Network",
+          "type": "item",
+          "url": "http://opensky-network.org/",
+          "description": "Community, open source flight tracking network. [Free]",
+          "notes": "✈️"
+        },
+        {
+          "name": "PlaneFinder",
+          "type": "item",
+          "url": "http://planefinder.net/",
+          "description": "Live flight tracker. [Free]",
+          "notes": "✈️"
+        },
+        {
+          "name": "ShipFinder",
+          "type": "item",
+          "url": "https://shipfinder.co/",
+          "description": "ShipFinder is an application designed to track vessels in near real-time across the globe. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/shipfinder"
+        },
+        {
+          "name": "ShipSpotting.com",
+          "type": "item",
+          "url": "http://shipspotting.com/",
+          "description": "Community website for uploading pictures & details of vessels spotted around the world. [Free]",
+          "notes": "⛵"
+        },
+        {
+          "name": "Tokyo MOU",
+          "type": "item",
+          "url": "http://www.tokyo-mou.org/",
+          "description": "Ship inspection/history database (PSC Database) [Free]",
+          "notes": "⛵"
+        },
+        {
+          "name": "Transit Visualisation",
+          "type": "item",
+          "url": "https://mobility.portal.geops.io/?baselayers=geops.travic",
+          "description": "ch.sbb.netzkarte [ch.sbb.netzkarte.dark\\&lang=en\\&layers=strassennamen]",
+          "notes": "haltekanten"
+        },
+        {
+          "name": "VesselFinder",
+          "type": "item",
+          "url": "https://www.vesselfinder.com/",
+          "description": "Live marine vessel tracker [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/vesselfinder"
+        },
+        {
+          "name": "WikiRoutes",
+          "type": "item",
+          "url": "http://wikiroutes.info/",
+          "description": "Public transport database. [Free]",
+          "notes": "🚂"
+        },
+        {
+          "name": "Winward",
+          "type": "item",
+          "url": "https://www.wnwd.com/",
+          "description": "Platform which combines maritime-related data. [Paid]",
+          "notes": "⛵"
+        }
+      ]
+    },
+    {
+      "name": "Web Tools",
+      "type": "folder",
+      "children": [
+        {
+          "name": "DNS History",
+          "type": "item",
+          "url": "http://completedns.com/",
+          "description": "Collection of historical DNS information. [Free]"
+        },
+        {
+          "name": "Distill.io",
+          "type": "item",
+          "url": "https://distill.io/",
+          "description": "Distill.io is a website change monitoring tool that allows users to track changes on web pages. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/distill"
+        },
+        {
+          "name": "DomainTools Whois Lookup",
+          "type": "item",
+          "url": "https://whois.domaintools.com/",
+          "description": "DomainTools Whois provides detailed domain name registration information, and can be used to investigate details about domains or IP addresses. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/domaintools-whois-lookup"
+        },
+        {
+          "name": "Geo Data Tool",
+          "type": "item",
+          "url": "https://www.geodatatool.com/",
+          "description": "IP geolocation service to identify the location and other technical information associated to IP addresses. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/geo-data-tool"
+        },
+        {
+          "name": "ICANN Lookup",
+          "type": "item",
+          "url": "https://lookup.icann.org/",
+          "description": "This tool allows you to search for the current registration data of internet domain names. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/icann-lookup"
+        },
+        {
+          "name": "IDN Checker",
+          "type": "item",
+          "url": "https://holdintegrity.com/checker",
+          "description": "IDN Checker detects visually similar versions of a domain. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/idn-checker"
+        },
+        {
+          "name": "Intelx.io",
+          "type": "item",
+          "url": "http://intelx.io/",
+          "description": "Find user details in data breaches [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/intelx.io"
+        },
+        {
+          "name": "Moz Link Explorer",
+          "type": "item",
+          "url": "http://moz.com/link-explorer",
+          "description": "Analyse the links of any website. [Free]"
+        },
+        {
+          "name": "PublicWWW",
+          "type": "item",
+          "url": "https://publicwww.com/",
+          "description": "PublicWWW is a source code search engine that allows you to search for any alphanumeric snippet, signature, or keyword within the HTML, JavaScript, and CSS code of millions of web pages. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/publicwww"
+        },
+        {
+          "name": "Shodan",
+          "type": "item",
+          "url": "https://www.shodan.io/",
+          "description": "A search engine for internet-connected devices, from webcams to databases. [Partially Free]"
+        },
+        {
+          "name": "The Information Laundromat",
+          "type": "item",
+          "url": "https://informationlaundromat.com",
+          "description": "A tool for analyzing content replication and site architecture to detect information laundering. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/the-information-laundromat"
+        },
+        {
+          "name": "Vortimo",
+          "type": "item",
+          "url": "https://www.vortimo.com/",
+          "description": "Suite of tools for website, email, WHOIS, etc. analysis [Paid]"
+        },
+        {
+          "name": "Wayback Machine",
+          "type": "item",
+          "url": "https://web.archive.org/",
+          "description": "The Internet Archive's Wayback Machine lets users view and archive web pages, aiding in historical research and digital preservation. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/internet-archive"
+        },
+        {
+          "name": "Web Archives",
+          "type": "item",
+          "url": "https://github.com/dessant/web-archives",
+          "description": "A browser extension to view archived and cached versions of a website on multiple archiving sites. [Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/web-archives"
+        },
+        {
+          "name": "What CMS",
+          "type": "item",
+          "url": "https://whatcms.org/",
+          "description": "A tool that you can use to identify the technologies used to power a website. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/what-cms"
+        },
+        {
+          "name": "Whoxy",
+          "type": "item",
+          "url": "https://www.whoxy.com/",
+          "description": "Whoxy is a domain search engine or whois lookup tool to find (the history of) registration information on a domain, such as the registrar, the status of the domain and the date of registration. [Partially Free]",
+          "notes": "https://bellingcat.gitbook.io/toolkit/more/all-tools/whoxy"
+        }
+      ]
+    }
+  ]
+}
